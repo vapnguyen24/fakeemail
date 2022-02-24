@@ -1,0 +1,133 @@
+header {
+    background-color: white;
+    height: 150px;
+    position: relative;
+}
+
+input:focus {
+    outline: none;
+}
+
+header .timkiem {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+header .timkiem .nhap {
+    padding: 8px;
+    border-radius: 9px;
+    border: black;
+    border: 1px solid;
+}
+
+header .timkiem .nhap:hover {
+ 
+}
+
+header .timkiem .nhap:focus {
+    outline:black;
+}
+
+header .timkiem button {
+    border: none;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.menu >li {
+    display: inline-block;
+    padding: 0 10px;
+    background-color: rgb(169, 136, 199);
+    width: 150px;
+    border: 1px solid;
+}
+
+article { 
+    width: 50%;
+    float: left;
+}
+/* CSS CHO PHẦN FORM */
+aside {
+    width: 50%;
+    float: right;
+}
+
+aside .khung-form {
+    width: 40%;
+    margin-top: 60px;
+    margin-left: 50px;
+    padding-left: 40PX;
+
+}
+aside .khung-form .tieude   {
+    text-align: center;
+}
+
+aside .khung-form form>div {
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+aside .khung-form form>div label {
+    font-weight: bold;
+
+}
+aside .khung-form form>div input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+aside .khung-form form>.button {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+aside .khung-form form>.button button {
+    padding: 10px;
+    border: black;
+    border-radius: none;
+    cursor: pointer;
+    color: black;
+}
+footer {
+    clear: both;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 40px;
+}
+
+footer .lienhe {
+
+}
+
+footer .diachi {
+
+}
+
+footer .diachi .tendiachi {
+
+}
+
+footer .email {
+
+}
+
+footer .email .tenemail {
+
+}
+
+footer .hotline {
+
+}
+
+
+
+  

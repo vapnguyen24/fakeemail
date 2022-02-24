@@ -1,0 +1,121 @@
+.menu >li {
+    display: inline-block;
+    padding: 0 10px;
+    background-color: rgb(169, 136, 199);
+    width: 150px;
+    border: 1px solid;
+}
+
+.body {
+    padding: 30px 0;
+    height: 570px;
+}
+
+select:focus {
+    outline: none;
+}
+
+
+.body article {
+    display: flex;
+
+}
+
+.body article>div {
+    width: 45%;
+}
+
+.body  article>div img {
+    height: 100%;
+    width: 96%;
+    object-fit: cover;
+}
+
+.body {
+
+}
+
+.body aside {
+
+}
+
+.body aside .khungsanpham {
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+.body aside .khungsanpham>div {
+    margin-bottom: 20px;
+}
+
+.body aside .khungsanpham .tieude {
+    font-size: 12px;
+    color: #525457;
+}
+
+.body aside .khungsanpham .tensp {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.body aside .khungsanpham .tensp .ten {
+
+}
+
+.body aside .khungsanpham .tensp .gia {
+
+}
+ 
+.body aside .khungsanpham .size {
+
+}
+
+.body aside .khungsanpham .size select {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.body aside .khungsanpham .dathang {
+
+}
+
+.body aside .khungsanpham .dathang button {
+    width: 100%;
+    padding: 10px 0;
+    border: black;
+    background-color: gainsboro;
+    cursor: pointer;
+    color: rgb(128, 128, 119);
+}
+
+.body aside .khungsanpham .dathang button:hover {
+    color: black;
+}
+
+.body aside .khungsanpham .chitiet {
+
+}
+
+.body aside .khungsanpham .chitiet .title {
+    margin-bottom: 10px;
+}
+
+.body aside .khungsanpham .chitiet .content {
+    font-size: 13px;
+    /* margin-top: 10px; */
+}
+
+footer {
+    height:200px;
+    background-color: rgb(184, 184, 187);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    clear: both;
+}
+
+a:visited {
+    color: black;
+}

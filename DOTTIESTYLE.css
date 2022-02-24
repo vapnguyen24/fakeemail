@@ -1,0 +1,140 @@
+
+
+
+/*  */
+
+.body {
+    height: 1000px;
+}
+
+
+
+article {
+    background-color: white;
+    height: 500px;
+    width: 70%;
+}
+
+aside {
+    background-color: white;
+    height: 100%;
+    width: 30%;
+}
+
+
+footer {
+    height:100px;
+    background-color: rgb(184, 184, 187);
+    text-align: center;
+}
+.lienket a{text-decoration: none}
+
+/* PHẦN MENU */
+
+nav {
+    background-color: rgb(169, 136, 199);
+}
+
+.menu {
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu >li {
+    display: inline-block;
+    padding: 0 10px;
+    background-color: rgb(169, 136, 199);
+    width: 150px;
+    border: 1px solid;
+}
+
+.menu>li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 60px;
+    display: block;
+}
+.menu>li a:hover {
+    color: #fff;
+}
+/* MENU phụ */
+.submenu {
+    position: absolute;
+    list-style: none;
+    width: 120px;
+    display: none;
+}
+
+.submenu li {
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+}
+
+
+.submenu li a {
+    line-height: 45px;
+    padding: 0 10px;
+    background-color: black;
+    color: white;
+}
+
+.submenu li a:hover {
+    background-color: rgb(169, 136, 199);
+    transition: .5s;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+/*  KÊT THÚC*/
+
+.body article .khung {
+    padding-top: 40px;
+    padding-left: 17%;
+}
+
+.body article .khung .tieude2 {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+    padding-top: 10px;
+}
+
+.body article .khung .noidung {
+font-size: 14px;
+padding-top: 10px;
+}
+
+.body article .khung .tag {
+    font-style: italic;
+    padding-top: 10px;
+}
+
+.body article .khung .link {
+    padding-top: 10px;
+}
+
+aside {
+    float: right;
+    height: 50%;
+}
+
+footer {
+    height:200px;
+    background-color: rgb(184, 184, 187);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    clear: both;
+}
+a {
+    color: #000;
+}
+a:visited {
+    color: black;
+}
+
