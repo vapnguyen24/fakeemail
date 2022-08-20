@@ -199,11 +199,13 @@ h1.thongbao {
     margin-top: 15px;
     font-style: italic;
     color: rgb(222, 59, 59);
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 h1.thongbao > span {
     margin-top: 0;
+    
     margin-left: 50px;
 }
 
