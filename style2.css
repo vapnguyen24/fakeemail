@@ -107,6 +107,7 @@ section.send {
 .user__name--first {
     display: flex;
     align-items: center;
+    position: relative;
     
 }
 .user__name--first > span {
@@ -127,6 +128,14 @@ section.send {
     position: absolute;
     top: 15;
 }
+
+.user__name--first:first-child > span:last-child{
+    position: absolute;
+    top: 0;
+    width: 55px;
+    left: 70px;
+}
+
 
 .user__icon {
     display: flex;
