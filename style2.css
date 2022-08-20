@@ -177,13 +177,19 @@ nav {
     margin-left: 20px;
 
 }
-
+/* 
 .note {
     text-align: center;
     margin-top: 20px;
 
 
+} */
+.note {
+    color: rgb(249, 3, 0);
+    font-weight: 500;
+    margin-top: 20px;
 }
+
 .note p {
     font-family: 'Times New Roman', Times, serif!important;
     font-weight: 600;
@@ -198,7 +204,8 @@ nav {
 h1.thongbao {
     margin-top: 15px;
     font-style: italic;
-    color: rgb(222, 59, 59);
+    color: rgb(249, 3, 0);
+
     font-size: 15px;
     font-weight: 500;
 }
